@@ -19,8 +19,9 @@ body {
 .container {
     background-color: hsl(215, 32%, 27%);
     border-radius: 12px;
-    height: 440px;
-    width: 275px;
+    height: 470px;
+    width: 290px;
+    
 }
 
 .card {
@@ -43,7 +44,7 @@ body {
     margin: auto;
     margin-top: 22px;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: hsl(215, 32%, 27%);
     width: 90%;
     
 }
@@ -58,6 +59,7 @@ body {
 
 .texto p {
     text-align: left;
+    color: hsl(215, 51%, 70%);
 }
 
 hr {
@@ -65,7 +67,7 @@ hr {
 }
 
 .center {
-    background-color: rgb(248, 248, 248);
+    background-color: hsl(215, 32%, 27%);
     display: flex;
     justify-content: space-between;
     
@@ -75,5 +77,56 @@ hr {
     color: hsl(178, 100%, 50%);
     display: flex;
     align-items: center;
-    }
+    
+}
 
+.lado1 img {
+    margin-right: 6px;
+}
+
+.lado2 {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%)
+}
+
+.lado2 img {
+    margin-right: 6px;
+    
+   
+}
+
+hr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 11px;
+    border: -10px solid;
+    color: rgb(255, 252, 252);
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    color: hsl(215, 51%, 70%);
+    margin-top: 11px;
+}
+
+.img1 img {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 30px;
+    margin-left: -47px;
+}
+
+.texto2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: -3px;
+}
+
+span {
+    color: white;
+}
