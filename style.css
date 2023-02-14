@@ -37,8 +37,31 @@ body {
 .card img {
     width: 100%;
     border-radius: 6px;
-    
 }
+
+.icon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 261px;
+    margin: 14px auto 0 14px;
+    position: absolute;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%, 60%);
+}
+
+.icon2:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    position: absolute;
+    width: 50px;
+}
+
 
 .texto {
     margin: auto;
@@ -129,4 +152,10 @@ hr {
 
 span {
     color: white;
+}
+
+h3:hover, 
+span:hover {
+   color: hsl(178, 100%, 50%);
+   cursor: pointer;
 }
